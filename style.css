@@ -1,0 +1,100 @@
+body {
+  margin: 20px;
+}
+
+.image-section {
+  border: 1px;
+  border-style: inset;
+  border-color: blue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 40%;
+  cursor: pointer;
+  /* background-color: #dbf9db; */
+  background-image: linear-gradient(to right, #c3fdb8, #64e986);
+}
+
+.image-section:hover {
+  /*  background-color: #f5fffa; */
+  background-image: linear-gradient(to left, #736aff, #87cefa);
+}
+
+.my-form {
+  border: 1px;
+  border-style: inset;
+  border-color: blue;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 50%;
+  background: #fbfbf9;
+}
+
+label {
+  font-size: 16px;
+}
+
+label:hover {
+  text-decoration: underline;
+}
+
+.input-field,
+.input-button-cancel,
+.input-button {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px;
+  border-style: inset;
+  border-color: gray;
+  margin-top: 10px;
+  margin-bottom: 4px;
+  background: transparent;
+}
+
+.input-field:hover {
+  border: 1px;
+  border-style: inset;
+  border-color: #fdeef4;
+  background: #fffafa;
+}
+
+.input-button {
+  cursor: pointer;
+  background: #00bfff;
+  border: none;
+  height: 33px;
+  font-size: 15px;
+}
+
+.input-button:hover {
+  background: #0909ff;
+  color: #fff;
+}
+
+.number-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 8px;
+  gap: 20px;
+}
+
+.tik-button {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+
+.input-button-cancel {
+  cursor: pointer;
+  background: #e8adaa;
+  border: none;
+  height: 33px;
+  font-size: 15px;
+}
+
+.input-button-cancel:hover {
+  background: red;
+  color: #fff;
+}

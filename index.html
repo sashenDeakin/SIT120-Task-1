@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 50%;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+
+      th,
+      td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+
+      td:hover {
+        background: #fff0f5;
+      }
+
+      th {
+        background-color: #fff;
+      }
+
+      th:hover {
+        background-color: #9afeff;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h3>SIT120 - Introduction to Responsive Web Apps</h3>
+      <h4>Task 1</h4>
+      <p style="color: brown">223603448-Sashen Jayathilaka</p>
+    </div>
+
+    <hr />
+
+    <!--Start Image Section-->
+
+    <div style="position: relative" class="image-section">
+      <img
+        style="width: 300px"
+        src="https://dl.dropboxusercontent.com/scl/fi/zlllzsvlcw7blzd9xszxz/tree.svg?rlkey=6i8zci7kwi0a4gk2p6ksapr5f&dl=0"
+        alt="tree"
+      />
+      <img
+        style="width: 180px; position: absolute; top: 110px"
+        src="https://dl.dropboxusercontent.com/scl/fi/qikjiedsyugcr29nwv4ud/treeOne.png?rlkey=ze2jkpr0q4ak8t26aoj0mq6z0&dl=0"
+        alt="tree"
+      />
+      <img
+        style="width: 80px; position: absolute"
+        src="https://www.freeiconspng.com/uploads/sun-icon-0.png"
+        alt="sun"
+      />
+      <img
+        style="
+          width: 100px;
+          position: absolute;
+          top: 240px;
+          left: 85px;
+          z-index: 10;
+        "
+        src="https://dl.dropboxusercontent.com/scl/fi/usf2vw871cgo4mrkxfyae/R.png?rlkey=86pzbpqd6zu4whzzkvulc0mhg&dl=0"
+        alt="cat"
+      />
+      <img
+        style="
+          width: 400px;
+          height: 145px;
+          position: absolute;
+          top: 175px;
+          left: 70px;
+          z-index: 0;
+        "
+        alt="grass"
+        src="https://th.bing.com/th/id/R.58e7fbfb0d7ccfc5131af7d14662790f?rik=r7dQzxdVdYjbBw&pid=ImgRaw&r=0"
+      />
+    </div>
+
+    <!--End Image Section-->
+
+    <!--Start Table Section-->
+
+    <table>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+      </tr>
+      <tr>
+        <td>Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+      </tr>
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+      </tr>
+    </table>
+
+    <!--End Table Section-->
+
+    <!--Start Form Section-->
+
+    <form class="my-form">
+      <p
+        style="text-align: center; font-size: 20px; text-decoration: underline"
+      >
+        Fill This Form
+      </p>
+
+      <label for="name">Name</label><br />
+      <input
+        class="input-field"
+        placeholder="your Name"
+        type="text"
+        style="width: 100%"
+      /><br />
+      <label for="email">Email Address</label><br />
+      <input
+        class="input-field"
+        placeholder="your Email Address"
+        type="email"
+        style="width: 100%"
+      /><br />
+      <label for="birth">Date Of Birth</label><br />
+      <input
+        class="input-field"
+        placeholder="your Age"
+        type="date"
+        style="width: 100%"
+      /><br />
+      <label for="address">Address</label><br />
+      <input
+        class="input-field"
+        placeholder="your Address"
+        type="text"
+        style="width: 100%"
+      /><br />
+      <div class="number-field">
+        <div>
+          <label for="number">Phone Number</label><br />
+          <input
+            class="input-field"
+            placeholder="your Phone Number"
+            type="number"
+            style="width: 100%"
+          />
+        </div>
+        <div>
+          <label for="fle">Attach your document</label><br />
+          <input type="file" style="width: 100%; align-items: center" />
+        </div>
+      </div>
+      <br />
+      <div class="tik-button">
+        <input type="checkbox" style="cursor: pointer" />
+        <label for="agree">Agreement terms and conditions</label>
+      </div>
+      <div style="width: 100%; margin-top: 20px">
+        <input
+          class="input-button"
+          type="button"
+          value="Submit Form"
+          style="width: 100%"
+        />
+        <br />
+        <input
+          class="input-button-cancel"
+          type="button"
+          value="Cancel Form"
+          style="width: 100%"
+        />
+      </div>
+    </form>
+
+    <!--End Form Section-->
+  </body>
+</html>
