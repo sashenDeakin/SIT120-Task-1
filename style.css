@@ -25,8 +25,9 @@ body {
   border-color: blue;
   border-radius: 10px;
   padding: 20px;
-  margin-top: 20px;
-  width: 50%;
+  /* margin-top: 200px; */
+  margin: auto;
+  width: 70%;
   background: #fbfbf9;
 }
 

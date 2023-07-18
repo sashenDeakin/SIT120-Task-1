@@ -9,6 +9,7 @@
         width: 50%;
         margin-top: 20px;
         cursor: pointer;
+        margin-bottom: 50px;
       }
 
       th,
@@ -201,15 +202,28 @@
           />
         </div>
         <div>
-          <label for="fle">Your Age</label><br />
-          <input
-            placeholder="Enter Your Age"
-            type="number"
-            class="input-field"
-            style="width: 100%; align-items: center"
-          />
+          <label for="opction">Please Select an Option</label>
+          <div>
+            <select class="input-field">
+              <option selected disabled>select a value from the list</option>
+              <option>First Option</option>
+              <option>Second Option</option>
+              <option>Third Option</option>
+              <option>Last Option</option>
+            </select>
+          </div>
         </div>
       </div>
+
+      <br />
+
+      <div>
+        <fieldset>
+          <legend style="font-size: 16px">Please Provide your comments</legend>
+          <textarea cols="40" rows="20">Please Provide your comments</textarea>
+        </fieldset>
+      </div>
+
       <br />
       <div class="tik-button">
         <input type="checkbox" style="cursor: pointer" />
@@ -220,6 +234,7 @@
           class="input-button"
           type="button"
           value="Submit Form"
+          onclick="alert('Submit')"
           style="width: 100%"
         />
         <br />
@@ -227,13 +242,11 @@
           class="input-button-cancel"
           type="button"
           value="Cancel Form"
+          onclick="alert('Are you sure you want to')"
           style="width: 100%"
         />
       </div>
     </form>
-
-    <li>hex color</li>
-    <li>hex color</li>
 
     <!--End Form Section-->
   </body>
