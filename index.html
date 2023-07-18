@@ -49,7 +49,8 @@
         alt="tree"
       />
       <img
-        style="width: 150px; position: absolute; top: 110px"
+        style="width: 150px; position: absolute; top: 110px; opacity: 0.5"
+        class="tree-image"
         src="https://dl.dropboxusercontent.com/scl/fi/qikjiedsyugcr29nwv4ud/treeOne.png?rlkey=ze2jkpr0q4ak8t26aoj0mq6z0&dl=0"
         alt="tree"
       />
@@ -88,6 +89,22 @@
     <!--Start Table Section-->
 
     <table>
+      <caption
+        style="
+          text-align: center;
+          color: blue;
+          font-size: 25px;
+          font-style: italic;
+          font-weight: 800px;
+          margin-bottom: 20px;
+          margin-top: 20px;
+          text-decoration: underline;
+          text-underline-position: under;
+          /* text-decoration-thickness: 2px; */
+        "
+      >
+        This is my Table
+      </caption>
       <tr>
         <th>Column 1</th>
         <th>Column 2</th>
@@ -101,6 +118,29 @@
         <td>Row 2, Column 2</td>
       </tr>
     </table>
+
+    <!--     <table>
+      <caption>
+        This is my second Table
+      </caption>
+      <tr>
+        <th colspan="2">Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Row 1, Column 1</td>
+        <td>Row 1, Column 2</td>
+        <td>Row 1, Column 3</td>
+      </tr>
+
+      <tr>
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+        <td>Row 2, Column 3</td>
+      </tr>
+    </table> -->
 
     <!--End Table Section-->
 
@@ -152,8 +192,22 @@
           />
         </div>
         <div>
-          <label for="fle">Attach your document</label><br />
-          <input type="file" style="width: 100%; align-items: center" />
+          <label for="fle">Your Age</label><br />
+          <input
+            placeholder="Enter Your Age"
+            type="number"
+            class="input-field"
+            style="width: 100%; align-items: center"
+          />
+        </div>
+        <div>
+          <label for="fle">Your Age</label><br />
+          <input
+            placeholder="Enter Your Age"
+            type="number"
+            class="input-field"
+            style="width: 100%; align-items: center"
+          />
         </div>
       </div>
       <br />
@@ -177,6 +231,9 @@
         />
       </div>
     </form>
+
+    <li>hex color</li>
+    <li>hex color</li>
 
     <!--End Form Section-->
   </body>
