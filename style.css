@@ -105,3 +105,51 @@ label:hover {
   transition: 0.5s;
   cursor: pointer;
 }
+
+/* @media screen and (min-width: 768px) {
+  body {
+    margin: 40px;
+  }
+  .image-section {
+    width: 30%;
+  }
+  .my-form {
+    width: 50%;
+  }
+  label {
+    font-size: 20px;
+  }
+  .input-field,
+  .input-button-cancel,
+  .input-button {
+    height: 40px;
+  }
+  .input-field:hover {
+    border: 1px;
+    border-style: inset;
+    border-color: #fdeef4;
+    background: #fffafa;
+  }
+} */
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .grass-img {
+    max-width: 150px;
+  }
+
+  .tree-image {
+    display: none;
+  }
+
+  .sun-img {
+    display: none;
+  }
+
+  .number-field {
+    display: inline-block;
+  }
+}
